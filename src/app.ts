@@ -30,12 +30,6 @@ app.get('/', (req, res) => {
   res.status(200).json({
     success: true,
     message: 'Welcome to Library Management API',
-    version: '1.0.0',
-    endpoints: {
-      books: '/api/books',
-      borrow: '/api/borrow',
-      health: '/health'
-    }
   });
 });
 
